@@ -1,0 +1,8 @@
+.chat-box{
+    height: 40rem;
+    width: 80%;
+    border-radius: 20px;
+    display: flex;
+    margin: 40px auto;
+    background: linear-gradient(180deg, #00b3ff, #513cff);;
+}

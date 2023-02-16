@@ -1,0 +1,22 @@
+.input-container{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    overflow: hidden;
+    width: 99%;
+    position: sticky;
+}
+.input-container>input{
+    border:none;
+    outline: none;
+}
+.input-container>button{
+    height: 100%;
+    width: 15%;
+    background-color: aquamarine;
+    color: white;
+    border-radius: 10px;
+    border: none;
+}

@@ -1,0 +1,81 @@
+.avtar-container{
+    min-height: 80%;
+    width: 65%;
+    margin: 30px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.avtar-container > h4,div{
+    margin:1rem 0;
+}
+.avtar-img{
+    height: 10rem;
+    width: 10rem;
+    border-radius: 50%;
+}
+.avtar-img > img{
+    margin: 0px;
+    width: 10rem;
+    border-radius: 50%;
+}
+.images-container{
+    height: 17rem;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.avtar-images{
+    height: 8rem;
+    width: 8rem;
+    border-radius: 50%;
+    border: none;
+    background-color: white;
+}
+.images{
+    height: 7rem;
+    width: 7rem;
+    border-radius: 50%;
+}
+.input-name{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.input-name-div{
+    min-height: 35px;
+    width: 12rem;
+    border-bottom: .5px solid gray;
+}
+.input-name-div> input{
+    border: none;
+    height: 30px;
+    width: 10rem;
+    outline: none;
+    text-align: center;
+
+}
+.null{
+    background: linear-gradient(180deg, #cde2ec, #99c9e4);
+    height: 40px;
+    width: 13rem;
+    border: none;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+.not-null {
+    background: linear-gradient(180deg, #00b3ff, #513cff);
+    height: 40px;
+    width: 13rem;
+    border: none;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+.input-name-div>input:active{
+    border: none;
+}
+

@@ -1,0 +1,36 @@
+.chat-sections{
+    margin:0px;
+    height: 5rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    padding: 0px 20px;
+    background: linear-gradient(white, white)padding-box,
+    linear-gradient(180deg, #00b3ff, #513cff)border-box
+    ;
+    border-width: 1px;
+    border-style: solid;
+    border-color: transparent;
+}
+.name-and-chat{
+    padding-top: 1rem;
+    padding-left: 0.4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    height: 3rem;
+}
+.name-and-chat >h5{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.name-and-chat > p{
+    font-size: small;
+}
+.chat-sections  img{
+    border-radius: 50%;
+    width: 4rem;
+}

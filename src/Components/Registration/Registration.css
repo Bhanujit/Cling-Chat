@@ -1,0 +1,100 @@
+.registration-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height:38rem;
+    width:30%;
+    margin:50px auto;
+}
+.registration-card > p,img,button,h4,input{
+    margin: 5px 0px;
+}
+.registration-card>img{
+    border: 1px solid black;
+    height: 250px;
+    width: 200px;
+}
+.registration-card > button{
+    background: linear-gradient(180deg, #00b3ff, #513cff);
+    width: 5.31rem;
+    height: 2.5rem;
+    border-radius: 0 10px 10px 0;
+}
+.number-input>input{
+    width: 9.31rem;
+    height: 2.5rem;
+    border-radius:10px 0 0 10px ;
+    background: linear-gradient(white, white)padding-box,
+    linear-gradient(180deg, #00b3ff, #513cff)border-box
+    ;
+    border-width: 2px;
+    border-style: solid;
+    border-color: transparent;
+    margin-right: 5px;
+    padding: 5px;
+    padding-left: 10px;
+    outline: none;
+}
+.number-input>button{
+    background: linear-gradient(180deg, #00b3ff, #513cff);
+    width: 5.31rem;
+    height: 2.5rem;
+    border-radius: 0 10px 10px 0;
+    border: none;
+}
+.otp-input{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    
+
+} 
+.otp-input > input{
+    background: linear-gradient(white, white)padding-box,
+    linear-gradient(180deg, #00b3ff, #513cff)border-box
+    ;
+    border-width: 2px;
+    border-style: solid;
+    border-color: transparent;
+    width: 9rem;
+    height: 2.5rem;
+    border-radius: 10px;
+    outline: none;
+    text-align: center;
+    letter-spacing: 6px;
+}
+.otp-input > button{
+    width: 5.31rem;
+    height: 2.5rem;
+    background: linear-gradient(180deg, #00b3ff, #513cff);
+    text-align: center;
+    border-radius: 10px;
+    border: none;
+}
+.otp-varified > input{
+    display: none;
+}
+.otp-varified > button{
+    width: 5.31rem;
+    height: 2.5rem;
+    background: linear-gradient(180deg, #00b3ff, #513cff);
+    text-align: center;
+    border-radius: 10px;
+    border: none;
+}
+.reg-paragraph{
+    color: rgb(131, 131, 131);
+    width: 85%;
+}
+
+.click-here{
+    text-decoration: none;
+    color: #00b3ff;
+}
+
+.display-none{
+    display: none;
+}

@@ -1,0 +1,16 @@
+.chat-search{
+    padding: 0px 10px;
+}
+.chat-search > input{
+    outline: none;
+    border: none;
+    background-color: rgb(210, 240, 240);
+    border-radius: 5px;
+    margin: 0px 5px;
+}
+.chat-search > button{
+    border: none;
+    border-radius: 5px;
+    padding: 0 5px;
+     
+}

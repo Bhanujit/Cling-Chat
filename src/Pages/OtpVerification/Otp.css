@@ -1,0 +1,177 @@
+.otp-sent {
+    position: relative;
+    font-size: var(--font-size-base);
+    letter-spacing: 0.1px;
+    line-height: 1.88rem;
+    font-weight: 600;
+    font-family: var(--font-inter);
+    color: var(--color-gray);
+    text-align: center;
+  }
+  .otp-sent-wrapper {
+    margin: 0;
+    position: absolute;
+    top: 21.5rem;
+    left: 9.09rem;
+    display: flex;
+    flex-direction: row;
+    padding: var(--padding-md);
+    align-items: flex-start;
+    justify-content: center;
+  }
+  .enter-4-digit-otp-container {
+    position: relative;
+    top: 24rem;
+    right: 1.5rem;
+    font-size: var(--font-size-sm);
+    line-height: 1.25rem;
+    font-family: var(--font-inter);
+    color: var(--color-darkgray);
+    text-align: center;
+  }
+
+  .login-screen-2-child {
+    position: absolute;
+    top: 3.5rem;
+    left: 20.19rem;
+  }
+  .group-child {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: var(--br-sm);
+    background: linear-gradient(180deg, #00b3ff, #513cff);
+    width: 5.31rem;
+    height: 2.5rem;
+  }
+  .confirm {
+    position: relative;
+    font-size: var(--font-size-sm);
+    line-height: 1.25rem;
+    font-family: var(--font-inter);
+    color: var(--color-black);
+    text-align: left;
+  }
+  .confirm-wrapper {
+    position: absolute;
+    top: 0.33rem;
+    left: 0.94rem;
+    flex-direction: row;
+    padding: var(--padding-md);
+    align-items: center;
+    justify-content: center;
+  }
+  .login-screen-2-item,
+  .rectangle-parent {
+    border: 0;
+    background-color: transparent;
+    position: absolute;
+    height: 2.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .rectangle-parent {
+    cursor: pointer;
+    padding: 0;
+    top: 30rem;
+    left: 10rem;
+    width: 6rem;
+    background: linear-gradient(180deg, #00b3ff, #513cff);
+    text-align: center;
+    border-radius: 10px;
+  }
+  .login-screen-2-item {
+    border: 0.5px solid #513cff;
+    padding: 20px;
+    top: 26.5rem;
+    left: 7rem;
+    width: 11.58rem;
+  }
+
+
+
+  .want-to-change-container{
+    margin: 0;
+    position: absolute;
+    top: 33rem;
+    left: 3.6rem;
+    font-size: var(--font-size-sm);
+    line-height: 1.25rem;
+    text-align: center;
+    width: 18.67rem;
+  }
+  .frame-icon {
+    position: absolute;
+    top: 3rem;
+    left: 7rem;
+    width: 4rem;
+    height: 8rem;
+    overflow: hidden;
+
+  }
+  .login-screen-2-inner {
+    position: absolute;
+    height: 11.02%;
+    width: 17.98%;
+    top: 23.39%;
+    right: 31.09%;
+    bottom: 65.59%;
+    left: 50.93%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+    border: 2px solid black;
+  }
+  .login-screen-2 {
+    position: relative;
+    border-radius: var(--br-md);
+    background-color: var(--color-white);
+    width: 30%;
+    height: 39rem;
+    overflow: hidden;
+    margin: 0px auto;
+  }
+
+  .check-circle-icon {
+    position: absolute;
+    top: 13.63rem;
+    left: 8rem;
+    width: 9.75rem;
+    height: 9.75rem;
+    overflow: hidden;
+  }
+  .otp-verified {
+    position: relative;
+    letter-spacing: 0.1px;
+    left: 1.8rem;
+    line-height: 1.88rem;
+    font-weight: 600;
+  }
+  .otp-verified-wrapper {
+    margin: 0;
+    position: absolute;
+    top: 25.13rem;
+    left: 8.28rem;
+    display: flex;
+    flex-direction: row;
+    padding: var(--padding-md);
+    align-items: flex-start;
+    justify-content: center;
+    font-size: inherit;
+    font-family: inherit;
+  }
+  .login-screen-3 {
+    margin: 50px auto;
+    position: relative;
+    border-radius: var(--br-md);
+    background-color: var(--color-white);
+    width: 24%;
+    height: 41.69rem;
+    overflow: hidden;
+    text-align: center;
+    font-size: var(--font-size-base);
+    color: var(--color-gray);
+    font-family: var(--font-inter);
+  }
+  

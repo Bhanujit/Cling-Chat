@@ -1,0 +1,125 @@
+ .login-with-mobile {
+    position: relative;
+    font-size: 1rem;
+    letter-spacing: 0.1px;
+    line-height: 1.88rem;
+    font-weight: 600;
+    font-family: var(--font-inter);
+    color: #212121;
+    text-align: center;
+  }
+  .login-with-mobile-number-wrapper {
+    margin: 0;
+    position: absolute;
+    top: 18.5rem;
+    left: 5.44rem;
+    display: flex;
+    flex-direction: row;
+    padding: var(--padding-md);
+    align-items: flex-start;
+    justify-content: center;
+  }
+  .enter-the-mobile {
+    margin-block-start: 0;
+    margin-block-end: 0;
+  }
+  .otp-to-login {
+    margin: 0;
+  }
+  .enter-the-mobile-container1 {
+    line-break: anywhere;
+    width: 100%;
+  }
+  .enter-the-mobile-container {
+    position: relative;
+    left: 2rem;
+    top:20.5rem;
+    font-size: var(--font-size-base);
+    line-height: 1.25rem;
+    font-family: var(--font-inter);
+    color: #9e9e9e;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    width: 18.67rem;
+  }
+  .enter-the-mobile-number-on-whi-wrapper {
+    margin: 0;
+    position: absolute;
+    top: 20.69rem;
+    left: 2.35rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  .login-screen-1-child {
+    position: absolute;
+    top: 3.5rem;
+    left: 21.88rem;
+  }
+  .login-screen-1-item {
+    border: 0;
+    background-color: transparent;
+    position: absolute;
+    top: 24.49rem;
+    left: 5.31rem;
+    border-radius: var(--br-md) 0 0 var(--br-md);
+    width: 9.31rem;
+    height: 2.5rem;
+    border: 0.5px solid black;
+    border-radius:10px 0 0 10px ;
+    padding: 10px;
+  }
+  .login-screen-1-inner {
+    position: absolute;
+    top: 24.48rem;
+    left: 15.75rem;
+    border-radius: 0 var(--br-md) var(--br-md) 0;
+    background: linear-gradient(180deg, #00b3ff, #513cff);
+    width: 5.31rem;
+    height: 2.5rem;
+    border-radius: 0 10px 10px 0;
+  }
+  .send-otp-wrapper {
+    cursor: pointer;
+    border: 0;
+    padding: var(--padding-md);
+    background-color: transparent;
+    position: absolute;
+    top: 24.8rem;
+    left: 16.31rem;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    text-align: center;
+  }
+  .frame-icon {
+    position: absolute;
+    margin: 50px auto;
+    right: 32%;
+    height: 240px;
+    width: 190px;
+    overflow: hidden;
+  }
+  .login-screen-1 {
+    position: relative;
+    border-radius: 24px;
+    background-color: #fff;
+    width: 27%;
+    height: 32rem;
+    overflow: hidden;
+    margin: 50px auto;
+  } 
+   
+   /* .login-screen-1{
+    height:32rem ;
+    width: 27%;
+    margin: 50px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+   } */

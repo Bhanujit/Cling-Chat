@@ -1,0 +1,12 @@
+.nav-container{
+    height: 3rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 10px;
+}
+.nav-container > button{
+    border: none;
+    border-radius: 5px;
+}
